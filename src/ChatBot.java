@@ -44,5 +44,19 @@ public class ChatBot {
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
+
+    public void compareDec(double yourDec) {
+        if (yourDec == 6.9) {
+            System.out.println("Oh, awesome, my favorite decimal number is also 6.9");
+        } else {
+            System.out.println("Oh, " + yourDec + " is a cool decimal number, but it can't beat my favorite decimal number, 6.9");
+        }
+    }
+
+    public String favFood() {
+        return "Burgers";
+    }
 }
+
+
 
